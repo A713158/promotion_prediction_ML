@@ -179,6 +179,6 @@ Business-aligned model selection under real-world constraints
 
 ## Author
 
-Avi
+Avaneesh Kumar Gupta <br>
 MBA (Analytics) | Machine Learning & Business Analytics
 Open to roles in Data Science, Analytics, and Consulting
