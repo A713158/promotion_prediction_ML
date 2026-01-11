@@ -1,6 +1,6 @@
 # Project Overview
 
-This project focuses on building a machine learning–driven promotion recommendation system for a large multinational organization.
+This project focuses on building a machine learning–driven promotion recommendation system for a large multinational organization.<br>
 The objective is to predict whether an employee should be promoted (is_promoted = 1) or not (is_promoted = 0) using historical employee data.
 
 The system is designed as a decision-support tool for HR teams, with an emphasis on:
@@ -41,20 +41,20 @@ Organizational factors
 
 The dataset contains anonymized employee-level information, including:
 
-Feature	Description
-employee_id	Unique employee identifier
-department	Functional department
-region	Region of employment
-education	Highest qualification
-gender	Gender
-recruitment_channel	Hiring source
-no_of_trainings	Number of trainings attended
-age	Employee age
-previous_year_rating	Performance rating from previous year
-length_of_service	Years with the organization
-awards_won?	Whether an award was received
-avg_training_score	Average training performance
-is_promoted	Target variable
+Feature	Description<br>
+employee_id	Unique employee identifier<br>
+department	Functional department<br>
+region	Region of employment<br>
+education	Highest qualification<br>
+gender	Gender<br>
+recruitment_channel	Hiring source<br>
+no_of_trainings	Number of trainings attended<br>
+age	Employee age<br>
+previous_year_rating	Performance rating from previous year<br>
+length_of_service	Years with the organization<br>
+awards_won?	Whether an award was received<br>
+avg_training_score	Average training performance<br>
+is_promoted	Target variable<br>
 
 This project operates under strict operational constraints:
 
@@ -158,13 +158,13 @@ scikit-learn
 imbalanced-learn
 
 ## Repository Structure
-├── data/
-│   └── employee_promotion.csv
-├── notebooks/
-│   ├── EDA.ipynb
-│   ├── Baseline_Models.ipynb
-│   ├── Ensemble_Models.ipynb
-│   └── Model_Evaluation.ipynb
+├── data/<br>
+│   └── employee_promotion.csv<br>
+├── notebooks/<br>
+│   ├── EDA.ipynb<br>
+│   ├── Baseline_Models.ipynb<br>
+│   ├── Ensemble_Models.ipynb<br>
+│   └── Model_Evaluation.ipynb<br>
 ├── README.md
 
  Key Takeaways
@@ -180,5 +180,5 @@ Business-aligned model selection under real-world constraints
 ## Author
 
 Avaneesh Kumar Gupta <br>
-MBA (Analytics) | Machine Learning & Business Analytics
+MBA (Analytics) | Machine Learning & Business Analytics<br>
 Open to roles in Data Science, Analytics, and Consulting
