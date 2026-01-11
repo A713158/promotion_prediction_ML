@@ -1,4 +1,4 @@
-## Project Overview
+# Project Overview
 
 This project focuses on building a machine learning–driven promotion recommendation system for a large multinational organization.
 The objective is to predict whether an employee should be promoted (is_promoted = 1) or not (is_promoted = 0) using historical employee data.
@@ -11,7 +11,7 @@ Generalization and robustness
 
 Stability under high-risk, no-retraining constraints
 
-# Business Problem
+## Business Problem
 
 Despite having formal promotion policies, internal audits revealed:
 
@@ -23,7 +23,7 @@ Limited transparency in decision-making
 
 To address these challenges, the organization aims to leverage data-driven modeling to support consistent and explainable promotion recommendations.
 
-# Modeling Objective
+## Modeling Objective
 
 Build a binary classification system that predicts promotion outcomes using employee attributes related to:
 
@@ -37,7 +37,7 @@ Demographics
 
 Organizational factors
 
-# Dataset Description
+## Dataset Description
 
 The dataset contains anonymized employee-level information, including:
 
@@ -66,7 +66,7 @@ Errors may lead to financial, reputational, and ethical risk
 
 As a result, every modeling decision is carefully justified using EDA and evaluation metrics.
 
-# Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 A comprehensive EDA was performed to:
 
@@ -86,7 +86,7 @@ Encoding techniques
 
 Model selection and evaluation approach
 
-# Modeling Strategy
+## Modeling Strategy
 1. Baseline Models
 
 Used to establish interpretability and reference performance:
@@ -109,7 +109,7 @@ Boosting-based model (AdaBoost)
 
 Each model choice is justified based on dataset characteristics and observed baseline weaknesses.
 
-# Handling Class Imbalance
+## Handling Class Imbalance
 
 Significant imbalance in the target variable was observed
 
@@ -117,7 +117,7 @@ SMOTE was applied only on training data to prevent data leakage
 
 Model evaluation was performed on the original test distribution
 
-# Model Evaluation & Risk Assessment
+## Model Evaluation & Risk Assessment
 
 Models were evaluated using:
 
@@ -131,7 +131,7 @@ Performance on unseen test data
 
 The evaluation focused on reliability and consistency, not just peak accuracy.
 
-# Final Model Recommendation
+## Final Model Recommendation
 
 Random Forest was selected as the final model due to:
 
@@ -145,7 +145,7 @@ Robustness under no-retraining constraints
 
 The model prioritizes predictability and risk minimization, making it suitable for real-world deployment in high-impact HR decision systems.
 
-# Technologies Used
+## Technologies Used
 
 Python
 
@@ -157,7 +157,7 @@ scikit-learn
 
 imbalanced-learn
 
-# Repository Structure
+## Repository Structure
 ├── data/
 │   └── employee_promotion.csv
 ├── notebooks/
@@ -177,7 +177,7 @@ Clear bias–variance reasoning
 
 Business-aligned model selection under real-world constraints
 
-# Author
+## Author
 
 Avi
 MBA (Analytics) | Machine Learning & Business Analytics
